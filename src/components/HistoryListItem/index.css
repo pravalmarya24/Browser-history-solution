@@ -1,0 +1,57 @@
+.img-size {
+  height: 35px;
+  width: 35px;
+  margin-top: 8px;
+  margin-left: 74px;
+}
+
+.list-container {
+  list-style-type: none;
+  padding: 15px;
+}
+
+.domain-logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  align-items: center;
+}
+
+.time-para {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  color: #475569;
+}
+
+.titlt-para {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #475569;
+  margin-left: 34px;
+}
+
+.domain-para {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #64748b;
+  margin-left: 13px;
+}
+
+.delete-container {
+  margin-top: 4px;
+  background-color: white;
+  border-width: 0px;
+}
+
+.img-delete-size {
+  height: 20px;
+  width: 20px;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
