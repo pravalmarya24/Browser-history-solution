@@ -12,16 +12,14 @@ const HistoryListItem = props => {
     <li className="list-container">
       <div className="flex-container">
         <p className="time-para">{timeAccessed}</p>
-        <div className="domain-logo-container">
-          <img src={logoUrl} alt="domain logo" className="img-size" />
-          <p className="titlt-para">{title}</p>
-          <p className="domain-para">{domainUrl}</p>
-        </div>
+        <img src={logoUrl} alt="domain logo" className="img-size" />
+        <p className="titlt-para">{title}</p>
+        <p className="domain-para">{domainUrl}</p>
         <button
           className="delete-container"
           type="button"
           onClick={onDelete}
-          id="delete"
+          data-testid="delete"
         >
           <img
             src="https://assets.ccbp.in/frontend/react-js/delete-img.png"

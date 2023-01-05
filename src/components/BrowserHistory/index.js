@@ -58,9 +58,9 @@ class BrowserHistory extends Component {
           </div>
         </nav>
         <div className="bottom-bg-container">
-          <div className="card-continer">
+          <div className="card-container">
             {filteredHistoryList.length === 0 ? (
-              <p>There is no search history</p>
+              <p className="no-history">There is no history to show</p>
             ) : (
               <ul className="unordered-list-container">
                 {filteredHistoryList.map(eachList => (
